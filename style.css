@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+.Merriweather {
+    font-family: "Merriweather", cursive;
+}
+
+.Redressed {
+    font-family: "Redressed", serif;
+}
+
+.sty-navbar {
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+
+.nav-item .sty-nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.5s ease-in-out, border-color 0.5s ease;
+}
+
+.nav-item .sty-nav-link:hover {
+    border-color: var(--bs-teal);
+    padding-bottom: 20px;
+}
+
+.btn-order {
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: all 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/banniere.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.banner-desc {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.sty-btn-reservez {
+    transition: all 0.5s;
+}
+
+.sty-btn-reservez:hover,
+.sty-btn-reservez:active {
+    color: #fff;
+}
+
+.sty-title-NosVarietes {
+    color: #fff;
+}
+
+.sty-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/banniere5.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.order-form {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/Banniere2.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 600px;
+}
